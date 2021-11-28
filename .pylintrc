@@ -1,0 +1,16 @@
+[MASTER]
+
+load-plugins=
+    pylint_django
+
+django-settings-module=backend.settings
+
+disable=
+    anomalous-backslash-in-string
+
+[MESSAGES CONTROL]
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=119
