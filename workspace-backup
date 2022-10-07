@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": ["--line-length=99"],
+    "python.defaultInterpreterPath": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/bin/python",
+    // "python.envFile": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8",
+    // "python.pythonPath": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/bin/pylint",
+    "python.formatting.provider": "black",
+    "python.sortImports.path": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/bin/isort",
+    "[python]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    "cSpell.words": ["rumyqtrrq", "Taag"],
+    "python.envFile": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/",
+    "python.formatting.blackPath": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/bin/black",
+    "python.testing.pytestPath": "/home/tom/.cache/pypoetry/virtualenvs/another-headless-blog-Taag1dUl-py3.8/bin/py.test"
+  }
+}

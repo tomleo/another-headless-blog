@@ -1,0 +1,9 @@
+[run]
+branch = True
+source = .
+omit =
+    *migrations*
+    */tests.py
+    */tests/*
+    */test_*
+    */*_test*

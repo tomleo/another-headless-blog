@@ -56,6 +56,15 @@ class Post(models.Model):
     authentication = models.BooleanField(default=True)
     user = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
 
+    def __str__(self):
+        return self.title
+
+    def get_post_permissions_by_email(self):
+        return self.postpermissionbyemail_set.all()
+    
+    def get_post_permissions_by_pattern(self):
+        return self.postpermissionbyemailpattern_set.all()
+
 
 class PostPermissionByEmail(models.Model):
     """

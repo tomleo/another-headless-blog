@@ -4,3 +4,4 @@ ahb.sublime-project
 __pycache__/
 db.sqlite3
 /workspace.code-workspace
+venv/

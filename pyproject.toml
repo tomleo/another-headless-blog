@@ -8,20 +8,25 @@ license = "GPL-3"
 [tool.poetry.dependencies]
 python = "^3.8"
 Django = "^3.2.9"
-django-restframework = "^0.0.1"
 requests = "^2.26.0"
 Markdown = "^3.3.4"
 django-filter = "^21.1"
-pdbpp = "^0.10.3"
 django-extensions = "^3.1.5"
+djangorestframework = "^3.12.4"
+django-cors-headers = "^3.10.0"
+django-rest-knox = "^4.1.0"
 
 [tool.poetry.dev-dependencies]
-pylint = "^2.11.1"
 black = {version = "^21.10b0", allow-prereleases = true}
 pytest = "^6.2.5"
 pytest-django = "^4.4.0"
 isort = "^5.10.1"
-pylint-django = "^2.4.4"
+flake8 = "^4.0.1"
+pdbpp = "^0.10.3"
+coverage = "^6.2"
+pytest-mock = "^3.6.1"
+drf-yasg = "^1.20.0"
+ipython = "^7.30.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
